@@ -1,0 +1,228 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;    
+}
+
+header{
+    background-color:darkblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:300px;    
+}
+
+h2 {    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:10px;
+}
+
+p {
+    color:indigo;
+    margin-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulCharles{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;   
+   width: 100%;
+   height: 70%;
+
+}
+.navGui{
+    width:40%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+li{
+   font-size: 3vw; 
+}
+
+li:hover {
+  color:white;
+  font-size:70px;
+  cursor:pointer;
+  font-weight:bold;
+}
+
+.titleOne{
+   font-size: 5vw;
+   justify-content: flex-start;
+   font-size: 70px;
+   color: #0798ff;
+   font-family: Arial Black, Gadget, sans-serif;
+   text-shadow: 0px 0px 0 rgb(2,147,250),
+                1px 1px 0 rgb(-3,142,245),
+                2px 2px 0 rgb(-8,137,240),
+                3px 3px 0 rgb(-13,132,235),
+                4px 4px 0 rgb(-18,127,230),
+                5px 5px 0 rgb(-23,122,225),
+                6px 6px 0 rgb(-28,117,220),
+                7px 7px 0 rgb(-33,112,215),
+                8px 8px 0 rgb(-38,107,210),
+                9px 9px 0 rgb(-43,102,205),
+                10px 10px  0 rgb(-48,97,200),
+                11px 11px 10px rgba(0,0,0,0.6),
+                11px 11px 1px rgba(0,0,0,0.5),
+                0px 0px 10px rgba(0,0,0,.2);
+}
+
+.titleOne:hover {
+    color:white;
+}
+
+.androidOne{    
+    width: 300px;
+    height: 500px;    
+}
+
+.androidOne:hover {
+transform: scale(1.2)
+}
+
+.androidTwo{    
+    width: 400px;
+    height:500px;
+}
+
+.androidTwo:hover {
+    transform: scale(1.2)    
+    }
+
+.androidDisplay {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(hightech.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+figcaption {    
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height:30px;
+    display:flex;    
+    position:relative;
+    top:10px;
+    left:700px;    
+    color:white;
+    background-color: blue;    
+}
+
+.classic {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(hightech.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.classic img {
+    width:300px;
+    height:300px;
+    transform: transition 2s;
+}
+
+.robot:hover{    
+  transform: scale(2);
+}
+
+button:hover {
+    cursor:grab;
+}
+
+.img-zoom {
+	width: 100px;
+    position:relative;
+    left:700px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+ }
+.img-zoom-animation {
+	position: relative;
+    left:700px;
+	width: 0px;
+	z-index: 10;
+	transition: width 0.3s linear 0s;
+ }
+ .img-zoom:hover + .img-zoom-animation {	
+    width: 200px;
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    background-color: lightblue ;
+}
+footer{
+    background-color: darkblue;
+    height:150px;
+}
+
+.fb {
+  width:60px;
+  position:relative;
+  left:20px;
+  bottom:30px;
+}
+
+.ulFooter {  
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;  
+  position:relative;
+  top:30px;
+}
+
+.css-button {
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px #3866a3 solid;
+	background: linear-gradient(180deg, #63B8EE 5%, #468CCF 100%);
+	text-shadow: 1px 1px 1px #528ecc;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	cursor: pointer;
+	display:inline-flex;
+    flex-direction: flex-end;	
+    position:relative;    
+    bottom:80px;
+    left:1300px;
+}
+.css-button:hover {
+	background: linear-gradient(180deg, #468CCF 5%, #63B8EE 100%);
+}
+.css-button-icon {
+	padding: 10px 10px;
+    width:40px;
+	border-right: 1px solid rgba(255, 255, 255, 0.16);
+	box-shadow: rgba(0, 0, 0, 0.14) -1px 0px 0px inset;
+}
+.css-button-text {
+	padding: 10px 18px;
+}
